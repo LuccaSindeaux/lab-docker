@@ -1,0 +1,44 @@
+[2026-11-10 13:16:17] Novo acesso registrado! Total de visitas no Redis: 1
+[2026-11-10 13:21:52] Novo acesso registrado! Total de visitas no Redis: 2
+[2026-11-10 13:22:57] SISTEMA: Catálogo inicializado no Redis com sucesso.
+[2026-11-10 13:22:57] ACESSO: Página principal carregada. Visita nº 3 (IP: 172.18.0.1)
+[2026-11-10 13:23:09] VENDA: 'Elden Ring' vendido por R$ 249 | Estoque restante: 4 | Receita acumulada: R$ 249
+[2026-11-10 13:23:09] ACESSO: Página principal carregada. Visita nº 4 (IP: 172.18.0.1)
+[2026-11-10 13:23:14] VENDA: 'Elden Ring' vendido por R$ 249 | Estoque restante: 3 | Receita acumulada: R$ 498
+[2026-11-10 13:23:14] ACESSO: Página principal carregada. Visita nº 5 (IP: 172.18.0.1)
+[2026-11-10 13:23:16] VENDA: 'Baldur's Gate 3' vendido por R$ 199 | Estoque restante: 3 | Receita acumulada: R$ 697
+[2026-11-10 13:23:16] ACESSO: Página principal carregada. Visita nº 6 (IP: 172.18.0.1)
+[2026-11-10 13:26:14] ACESSO: Página principal carregada. Visita nº 7 (IP: 172.18.0.1)
+[2026-11-10 13:26:16] VENDA: 'Elden Ring' vendido por R$ 249 | Estoque restante: 2 | Receita acumulada: R$ 946
+[2026-11-10 13:26:16] ACESSO: Página principal carregada. Visita nº 8 (IP: 172.18.0.1)
+[2026-11-10 13:26:17] REMOÇÃO: Item 'Elden Ring' (ID 1) foi excluído do catálogo no Redis.
+[2026-11-10 13:26:17] ACESSO: Página principal carregada. Visita nº 9 (IP: 172.18.0.1)
+[2026-11-10 13:26:19] REMOÇÃO: Item 'Dark Souls III' (ID 3) foi excluído do catálogo no Redis.
+[2026-11-10 13:26:19] ACESSO: Página principal carregada. Visita nº 10 (IP: 172.18.0.1)
+[2026-11-10 13:26:20] REMOÇÃO: Item 'Clean Architecture (Livro)' (ID 5) foi excluído do catálogo no Redis.
+[2026-11-10 13:26:20] ACESSO: Página principal carregada. Visita nº 11 (IP: 172.18.0.1)
+[2026-11-10 13:26:26] ACESSO: Página principal carregada. Visita nº 12 (IP: 172.18.0.1)
+[2026-11-10 13:30:13] ACESSO: Página principal carregada. Visita nº 13 (IP: 172.18.0.1)
+[2026-11-10 13:30:17] TRANSAÇÃO REMOVIDA: '[13:26:20] Removido: Clean Architecture (Livro)' excluída da lista de histórico.
+[2026-11-10 13:30:17] ACESSO: Página principal carregada. Visita nº 14 (IP: 172.18.0.1)
+[2026-11-10 13:30:17] TRANSAÇÃO REMOVIDA: '[13:26:19] Removido: Dark Souls III' excluída da lista de histórico.
+[2026-11-10 13:30:17] ACESSO: Página principal carregada. Visita nº 15 (IP: 172.18.0.1)
+[2026-11-10 13:30:18] TRANSAÇÃO REMOVIDA: '[13:26:17] Removido: Elden Ring' excluída da lista de histórico.
+[2026-11-10 13:30:18] ACESSO: Página principal carregada. Visita nº 16 (IP: 172.18.0.1)
+[2026-11-10 13:30:18] ESTORNO: Transação '[13:26:16] Compra: Elden Ring (R$ 249)' removida da lista | +1 devolvido ao estoque de 'Elden Ring' | Receita ajustada: R$ 697
+[2026-11-10 13:30:18] ACESSO: Página principal carregada. Visita nº 17 (IP: 172.18.0.1)
+[2026-11-10 13:30:18] ESTORNO: Transação '[13:23:16] Compra: Baldur's Gate 3 (R$ 199)' removida da lista | +1 devolvido ao estoque de 'Baldur's Gate 3' | Receita ajustada: R$ 498
+[2026-11-10 13:30:18] ACESSO: Página principal carregada. Visita nº 18 (IP: 172.18.0.1)
+[2026-11-10 13:30:19] ESTORNO: Transação '[13:23:14] Compra: Elden Ring (R$ 249)' removida da lista | +1 devolvido ao estoque de 'Elden Ring' | Receita ajustada: R$ 249
+[2026-11-10 13:30:19] ACESSO: Página principal carregada. Visita nº 19 (IP: 172.18.0.1)
+[2026-11-10 13:30:19] ESTORNO: Transação '[13:23:09] Compra: Elden Ring (R$ 249)' removida da lista | +1 devolvido ao estoque de 'Elden Ring' | Receita ajustada: R$ 0
+[2026-11-10 13:30:19] ACESSO: Página principal carregada. Visita nº 20 (IP: 172.18.0.1)
+[2026-11-10 13:30:20] VENDA: 'Baldur's Gate 3' vendido por R$ 199 | Estoque restante: 3 | Receita acumulada: R$ 199
+[2026-11-10 13:30:20] ACESSO: Página principal carregada. Visita nº 21 (IP: 172.18.0.1)
+[2026-11-10 13:30:21] ESTORNO: Transação '[13:30:20] Compra: Baldur's Gate 3 (R$ 199)' removida da lista | +1 devolvido ao estoque de 'Baldur's Gate 3' | Receita ajustada: R$ 0
+[2026-11-10 13:30:21] ACESSO: Página principal carregada. Visita nº 22 (IP: 172.18.0.1)
+[2026-11-10 13:31:01] ACESSO: Página principal carregada. Visita nº 23 (IP: 172.18.0.1)
+[2026-11-10 13:31:55] CADASTRO: Novo item 'Biblioteca Invisível' (Investigação Magia) adicionado por R$ 60 com 5 un.
+[2026-11-10 13:31:55] ACESSO: Página principal carregada. Visita nº 24 (IP: 172.18.0.1)
+[2026-11-10 13:32:27] CADASTRO: Novo item 'Elden Ring' (Aventura) adicionado por R$ 220 com 3 un.
+[2026-11-10 13:32:27] ACESSO: Página principal carregada. Visita nº 25 (IP: 172.18.0.1)
